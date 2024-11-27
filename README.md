@@ -21,6 +21,8 @@ This project implements a basic round-robin load balancer in Go using the `net/h
 2. **Forwarding**: The request is forwarded to the selected server using Go’s `httputil.ReverseProxy`.
 3. **Response**: The backend server processes the request and sends the response back through the load balancer to the client.
 
+![image](https://github.com/user-attachments/assets/db4228b9-6cce-4fb9-b216-f75641e47a28)
+
 ## Prerequisites
 
 ## Setup and Run
